@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "armor_expanded_medieval:moustache",
+    "armor_expanded_medieval:goat_beard_large",
+    "armor_expanded_medieval:split_moustache",
+    "armor_expanded_medieval:goat_beard",
+    "armor_expanded_medieval:chops",
+    "armor_expanded_medieval:asian_long",
+    "armor_expanded_medieval:fullbeard_large",
+    "armor_expanded_medieval:tri_forkbeard",
+    "armor_expanded_medieval:forkbeard",
+    "armor_expanded_medieval:braided_beard",
+    "armor_expanded_medieval:fullbeard_long",
+    "armor_expanded_medieval:snake_beard",
+    "armor_expanded_medieval:fullbeard",
+    "armor_expanded_medieval:chops_moustache",
+    "armor_expanded_medieval:asian_goatee",
+    "armor_expanded_medieval:goatee",
+    "armor_expanded_medieval:norsebeard"
+  ]
+}

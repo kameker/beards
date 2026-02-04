@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "armor_expanded_medieval:asian_goatee",
+    "texture": "beards:asian_goatee",
     "customModelName": "Normal",
     "guiTexture": "",
     "customProperties": {},

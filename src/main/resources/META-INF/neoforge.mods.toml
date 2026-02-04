@@ -3,7 +3,7 @@ loaderVersion="[4,)"
 license="Not specified"
 
 [[mods]]
-modId="armor_expanded_medieval"
+modId="beards"
 version="1.0.0"
 displayName="Armor Expanded: Medieval"
 displayURL="https://mcreator.net"
@@ -17,14 +17,14 @@ authors="MCreator"
 # Start of user code block custom mixins
 # End of user code block custom mixins
 
-[[dependencies.armor_expanded_medieval]]
+[[dependencies.beards]]
     modId="neoforge"
     type="required"
     versionRange="[21.1.190,)"
     ordering="AFTER"
     side="BOTH"
 
-[[dependencies.armor_expanded_medieval]]
+[[dependencies.beards]]
     modId="minecraft"
     type="required"
     versionRange="[1.21.1]"
@@ -32,7 +32,7 @@ authors="MCreator"
     side="BOTH"
 
 
-[[dependencies.armor_expanded_medieval]]
+[[dependencies.beards]]
     modId="curios_api"
     type="optional"
     versionRange="[0,)"

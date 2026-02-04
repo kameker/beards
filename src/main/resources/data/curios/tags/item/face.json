@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "armor_expanded_medieval:snouted_klappvisor",
-    "armor_expanded_medieval:snouted_klappvisor_off",
-    "armor_expanded_medieval:flat_klappvisor",
-    "armor_expanded_medieval:flat_klappvisor_off"
+    "beards:snouted_klappvisor",
+    "beards:snouted_klappvisor_off",
+    "beards:flat_klappvisor",
+    "beards:flat_klappvisor_off"
   ]
 }

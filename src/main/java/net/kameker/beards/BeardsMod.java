@@ -34,11 +34,11 @@ import java.util.Collection;
 import java.util.ArrayList;
 
 @Mod("beards")
-public class ArmorExpandedMedievalMod {
-	public static final Logger LOGGER = LogManager.getLogger(ArmorExpandedMedievalMod.class);
+public class BeardsMod {
+	public static final Logger LOGGER = LogManager.getLogger(BeardsMod.class);
 	public static final String MODID = "beards";
 
-	public ArmorExpandedMedievalMod(IEventBus modEventBus) {
+	public BeardsMod(IEventBus modEventBus) {
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
 
@@ -53,7 +53,7 @@ public class ArmorExpandedMedievalMod {
 			modEventBus.addListener(ArmorExpandedMedievalModCuriosRenderers::registerRenderers);
 		}
 
-		ArmorExpandedMedievalModItems.REGISTRY.register(modEventBus);
+		ModItems.register(modEventBus);
 		ArmorExpandedMedievalModTabs.REGISTRY.register(modEventBus);
 	}
 

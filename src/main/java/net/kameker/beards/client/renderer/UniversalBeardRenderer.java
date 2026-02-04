@@ -15,7 +15,6 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ItemStack;
 import net.kameker.beards.client.model.Modelmedievalbeards;
-import net.kameker.beards.client.model.Modelhelmetattachment;
 import net.kameker.beards.util.BeardColorUtil;
 import net.kameker.beards.init.ArmorExpandedMedievalModDataComponents;
 import top.theillusivec4.curios.api.SlotContext;
@@ -60,18 +59,7 @@ public class UniversalBeardRenderer implements ICurioRenderer {
         }
 
         ModelPart part;
-        if (isVisor) {
-            Modelhelmetattachment model = new Modelhelmetattachment(
-                    Minecraft.getInstance().getEntityModels().bakeLayer(Modelhelmetattachment.LAYER_LOCATION));
 
-            switch (beardType) {
-                case "snouted_visor" -> part = model.snoutvisor;
-                case "snouted_visor_up" -> part = model.snoutvisorup;
-                case "flat_visor" -> part = model.flatvisor;
-                case "flat_visor_up" -> part = model.flatvisorup;
-                default -> part = model.snoutvisor;
-            }
-        } else {
             Modelmedievalbeards model = new Modelmedievalbeards(
                     Minecraft.getInstance().getEntityModels().bakeLayer(Modelmedievalbeards.LAYER_LOCATION));
 
@@ -94,7 +82,7 @@ public class UniversalBeardRenderer implements ICurioRenderer {
                 case "split_moustache" -> part = model.SplitMoustache;
                 case "tri_forkbeard" -> part = model.TriForkbeard;
                 default -> part = model.Mustache;
-            }
+
         }
 
         BEARD_MODELS.put(beardType, part);

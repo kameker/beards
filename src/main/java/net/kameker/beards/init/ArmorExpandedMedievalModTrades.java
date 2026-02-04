@@ -3,6 +3,7 @@
 */
 package net.kameker.beards.init;
 
+import net.kameker.beards.ModItems;
 import net.neoforged.neoforge.event.village.WandererTradesEvent;
 import net.neoforged.neoforge.common.BasicItemListing;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -15,22 +16,22 @@ import net.minecraft.world.item.ItemStack;
 public class ArmorExpandedMedievalModTrades {
 	@SubscribeEvent
 	public static void registerWanderingTrades(WandererTradesEvent event) {
-		event.getGenericTrades().add(new BasicItemListing(new ItemStack(Items.EMERALD), new ItemStack(ArmorExpandedMedievalModItems.MOUSTACHE.get()), 3, 5, 0.05f));
-		event.getGenericTrades().add(new BasicItemListing(new ItemStack(Items.EMERALD, 5), new ItemStack(ArmorExpandedMedievalModItems.SPLIT_MOUSTACHE.get()), 3, 5, 0.05f));
-		event.getGenericTrades().add(new BasicItemListing(new ItemStack(Items.EMERALD, 5), new ItemStack(ArmorExpandedMedievalModItems.GOATEE.get()), 3, 5, 0.05f));
-		event.getGenericTrades().add(new BasicItemListing(new ItemStack(Items.EMERALD, 5), new ItemStack(ArmorExpandedMedievalModItems.FULLBEARD.get()), 3, 5, 0.05f));
-		event.getGenericTrades().add(new BasicItemListing(new ItemStack(Items.EMERALD, 5), new ItemStack(ArmorExpandedMedievalModItems.FULLBEARD_LARGE.get()), 3, 5, 0.05f));
-		event.getGenericTrades().add(new BasicItemListing(new ItemStack(Items.EMERALD, 5), new ItemStack(ArmorExpandedMedievalModItems.FULLBEARD_LONG.get()), 3, 5, 0.05f));
-		event.getGenericTrades().add(new BasicItemListing(new ItemStack(Items.EMERALD, 5), new ItemStack(ArmorExpandedMedievalModItems.GOAT_BEARD.get()), 3, 5, 0.05f));
-		event.getGenericTrades().add(new BasicItemListing(new ItemStack(Items.EMERALD, 5), new ItemStack(ArmorExpandedMedievalModItems.GOAT_BEARD_LARGE.get()), 3, 5, 0.05f));
-		event.getGenericTrades().add(new BasicItemListing(new ItemStack(Items.EMERALD, 5), new ItemStack(ArmorExpandedMedievalModItems.FORKBEARD.get()), 3, 5, 0.05f));
-		event.getGenericTrades().add(new BasicItemListing(new ItemStack(Items.EMERALD, 5), new ItemStack(ArmorExpandedMedievalModItems.TRI_FORKBEARD.get()), 3, 5, 0.05f));
-		event.getGenericTrades().add(new BasicItemListing(new ItemStack(Items.EMERALD, 5), new ItemStack(ArmorExpandedMedievalModItems.ASIAN_GOATEE.get()), 3, 5, 0.05f));
-		event.getGenericTrades().add(new BasicItemListing(new ItemStack(Items.EMERALD, 5), new ItemStack(ArmorExpandedMedievalModItems.CHOPS.get()), 3, 5, 0.05f));
-		event.getGenericTrades().add(new BasicItemListing(new ItemStack(Items.EMERALD, 5), new ItemStack(ArmorExpandedMedievalModItems.CHOPS_MOUSTACHE.get()), 3, 5, 0.05f));
-		event.getGenericTrades().add(new BasicItemListing(new ItemStack(Items.EMERALD, 5), new ItemStack(ArmorExpandedMedievalModItems.NORSEBEARD.get()), 3, 5, 0.05f));
-		event.getGenericTrades().add(new BasicItemListing(new ItemStack(Items.EMERALD, 5), new ItemStack(ArmorExpandedMedievalModItems.BRAIDED_BEARD.get()), 3, 5, 0.05f));
-		event.getGenericTrades().add(new BasicItemListing(new ItemStack(Items.EMERALD, 5), new ItemStack(ArmorExpandedMedievalModItems.SNAKE_BEARD.get()), 3, 5, 0.05f));
-		event.getGenericTrades().add(new BasicItemListing(new ItemStack(Items.EMERALD, 5), new ItemStack(ArmorExpandedMedievalModItems.ASIAN_LONG.get()), 3, 5, 0.05f));
+		event.getGenericTrades().add(new BasicItemListing(new ItemStack(Items.EMERALD), new ItemStack(ModItems.MOUSTACHE.get()), 3, 5, 0.05f));
+		event.getGenericTrades().add(new BasicItemListing(new ItemStack(Items.EMERALD, 5), new ItemStack(ModItems.SPLIT_MOUSTACHE.get()), 3, 5, 0.05f));
+		event.getGenericTrades().add(new BasicItemListing(new ItemStack(Items.EMERALD, 5), new ItemStack(ModItems.GOATEE.get()), 3, 5, 0.05f));
+		event.getGenericTrades().add(new BasicItemListing(new ItemStack(Items.EMERALD, 5), new ItemStack(ModItems.FULLBEARD.get()), 3, 5, 0.05f));
+		event.getGenericTrades().add(new BasicItemListing(new ItemStack(Items.EMERALD, 5), new ItemStack(ModItems.FULLBEARD_LARGE.get()), 3, 5, 0.05f));
+		event.getGenericTrades().add(new BasicItemListing(new ItemStack(Items.EMERALD, 5), new ItemStack(ModItems.FULLBEARD_LONG.get()), 3, 5, 0.05f));
+		event.getGenericTrades().add(new BasicItemListing(new ItemStack(Items.EMERALD, 5), new ItemStack(ModItems.GOAT_BEARD.get()), 3, 5, 0.05f));
+		event.getGenericTrades().add(new BasicItemListing(new ItemStack(Items.EMERALD, 5), new ItemStack(ModItems.GOAT_BEARD_LARGE.get()), 3, 5, 0.05f));
+		event.getGenericTrades().add(new BasicItemListing(new ItemStack(Items.EMERALD, 5), new ItemStack(ModItems.FORKBEARD.get()), 3, 5, 0.05f));
+		event.getGenericTrades().add(new BasicItemListing(new ItemStack(Items.EMERALD, 5), new ItemStack(ModItems.TRI_FORKBEARD.get()), 3, 5, 0.05f));
+		event.getGenericTrades().add(new BasicItemListing(new ItemStack(Items.EMERALD, 5), new ItemStack(ModItems.ASIAN_GOATEE.get()), 3, 5, 0.05f));
+		event.getGenericTrades().add(new BasicItemListing(new ItemStack(Items.EMERALD, 5), new ItemStack(ModItems.CHOPS.get()), 3, 5, 0.05f));
+		event.getGenericTrades().add(new BasicItemListing(new ItemStack(Items.EMERALD, 5), new ItemStack(ModItems.CHOPS_MOUSTACHE.get()), 3, 5, 0.05f));
+		event.getGenericTrades().add(new BasicItemListing(new ItemStack(Items.EMERALD, 5), new ItemStack(ModItems.NORSEBEARD.get()), 3, 5, 0.05f));
+		event.getGenericTrades().add(new BasicItemListing(new ItemStack(Items.EMERALD, 5), new ItemStack(ModItems.BRAIDED_BEARD.get()), 3, 5, 0.05f));
+		event.getGenericTrades().add(new BasicItemListing(new ItemStack(Items.EMERALD, 5), new ItemStack(ModItems.SNAKE_BEARD.get()), 3, 5, 0.05f));
+		event.getGenericTrades().add(new BasicItemListing(new ItemStack(Items.EMERALD, 5), new ItemStack(ModItems.ASIAN_LONG.get()), 3, 5, 0.05f));
 	}
 }

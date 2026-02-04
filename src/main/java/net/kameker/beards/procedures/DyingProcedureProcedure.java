@@ -1,6 +1,6 @@
 package net.kameker.beards.procedures;
 
-import net.kameker.beards.ArmorExpandedMedievalMod;
+import net.kameker.beards.BeardsMod;
 
 import net.neoforged.neoforge.event.entity.player.PlayerInteractEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -42,9 +42,9 @@ public class DyingProcedureProcedure {
 			return;
 		double color = 0;
 		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).is(ItemTags.create(ResourceLocation.parse("aeme:beard")))) {
-			ArmorExpandedMedievalMod.LOGGER.info("beard detected");
+			BeardsMod.LOGGER.info("beard detected");
 			if ((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).is(ItemTags.create(ResourceLocation.parse("c:dyes")))) {
-				ArmorExpandedMedievalMod.LOGGER.info("dye detected");
+				BeardsMod.LOGGER.info("dye detected");
 				color = 16383998;
 				if ((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem() == Items.WHITE_DYE) {
 					color = 16383998;

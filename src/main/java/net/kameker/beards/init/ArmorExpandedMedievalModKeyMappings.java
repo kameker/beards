@@ -5,8 +5,6 @@ package net.kameker.beards.init;
 
 import org.lwjgl.glfw.GLFW;
 
-import net.kameker.beards.network.HelmetAttachmentMessage;
-
 import net.neoforged.neoforge.network.PacketDistributor;
 import net.neoforged.neoforge.client.event.RegisterKeyMappingsEvent;
 import net.neoforged.neoforge.client.event.ClientTickEvent;
@@ -24,13 +22,7 @@ public class ArmorExpandedMedievalModKeyMappings {
 
 		@Override
 		public void setDown(boolean isDown) {
-			super.setDown(isDown);
-			if (isDownOld != isDown && isDown) {
-				PacketDistributor.sendToServer(new HelmetAttachmentMessage(0, 0));
-				HelmetAttachmentMessage.pressAction(Minecraft.getInstance().player, 0, 0);
-			}
-			isDownOld = isDown;
-		}
+			super.setDown(isDown);}
 	};
 
 	@SubscribeEvent

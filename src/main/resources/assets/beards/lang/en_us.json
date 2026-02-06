@@ -1,0 +1,23 @@
+{
+  "curios.identifier.face": "Face",
+  "curios.identifier.beard": "Beard",
+  "item.beards.moustache": "Moustache",
+  "item.beards.split_moustache": "Split Moustache",
+  "item.beards.goatee": "Goatee",
+  "item.beards.fullbeard": "Fullbeard",
+  "item.beards.fullbeard_large": "Large Fullbeard",
+  "item.beards.fullbeard_long": "Long Fullbeard",
+  "item.beards.goat_beard": "Goat Beard",
+  "item.beards.goat_beard_large": "Large Goat Beard",
+  "item.beards.forkbeard": "Forkbeard",
+  "item.beards.tri_forkbeard": "Tri-Forkbeard",
+  "item.beards.asian_goatee": "Asian Goatee",
+  "item.beards.chops": "Chops",
+  "item.beards.chops_moustache": "Chops With Moustache",
+  "item.beards.norsebeard": "Norseman Beard",
+  "item.beards.braided_beard": "Braided Beard",
+  "item.beards.snake_beard": "Snake Beard",
+  "item.beards.asian_long": "Long Asian Beard",
+  "item_group.beards.creative_tab": "Beards",
+  "key.beards.helmet_attachment": "Helmet Attachment"
+}

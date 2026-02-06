@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:ingots/steel"
+    },
+    "b": {
+      "tag": "c:nuggets/steel"
+    }
+  },
+  "result": {
+    "id": "beards:bascinet_helmet",
+    "count": 1
+  }
+}

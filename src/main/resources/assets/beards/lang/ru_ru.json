@@ -1,0 +1,23 @@
+{
+  "curios.identifier.face": "Лицо",
+  "curios.identifier.beard": "Борода",
+  "item.beards.moustache": "Усы",
+  "item.beards.split_moustache": "Раздвоенные усы",
+  "item.beards.goatee": "Эспаньолка",
+  "item.beards.fullbeard": "Полная борода",
+  "item.beards.fullbeard_large": "Большая полная борода",
+  "item.beards.fullbeard_long": "Длинная полная борода",
+  "item.beards.goat_beard": "Козлиная бородка",
+  "item.beards.goat_beard_large": "Большая козлиная бородка",
+  "item.beards.forkbeard": "Раздвоенная борода",
+  "item.beards.tri_forkbeard": "Тройная раздвоенная борода",
+  "item.beards.asian_goatee": "Азиатская эспаньолка",
+  "item.beards.chops": "Бакенбарды",
+  "item.beards.chops_moustache": "Бакенбарды с усами",
+  "item.beards.norsebeard": "Борода викинга",
+  "item.beards.braided_beard": "Заплетенная борода",
+  "item.beards.snake_beard": "Змеиная борода",
+  "item.beards.asian_long": "Длинная азиатская борода",
+  "item_group.beards.creative_tab": "Бороды",
+  "key.beards.helmet_attachment": "Прикрепить к шлему"
+}
